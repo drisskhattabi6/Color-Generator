@@ -7,14 +7,14 @@
 
 body {
     min-height: 100vh;
-    background-color: #1c1a1a;
+    background-color: #f9f9f9;
     padding: 10px;
 }
 h1 {
     text-align: center;
     font-size: 45px;
     font-weight: 600;
-    color: #f9f9f9;
+    color: #090909;
     margin-top: 10px;
 }
 #colors {
@@ -32,13 +32,14 @@ h1 {
     justify-content: center;
     width: 200px;
     height: 200px;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
     margin: 15px 10px;
     z-index: 0;
+    border: 1px solid #000;
     font-size: 20px;
-    text-shadow: 0 0 3px #ffffff7a;
-    box-shadow: -3px -3px 3px 3px #ffffff7a;
+    text-shadow: 0 0 3px #a9a5a57a;
+    box-shadow: -3px -3px 3px 5px #1414147a;
     font-weight: 800;
     transition: all .4s ease;
 }
@@ -55,12 +56,13 @@ h1 {
     border-radius: 7px;
     cursor: pointer;
     border: 0;
-    background-color: #f9f9f9;
+    color: #fff;
+    background-color: #161616;
     transition: all .4s ease;
     margin-left: calc(50% - 125px);
 }
 #new-colors:hover {
-    background-color: #fa8484;
+    background-color: #f47373;
 }
 
 #new-colors i {
